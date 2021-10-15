@@ -39,6 +39,7 @@ const outcome = cumLaude([9, 8, 5, 7, 7, 4, 9, 8, 8, 3, 6, 8, 5, 6]);
 console.log(outcome);
 
 
+
 // ---- Verwachte uitkomst: 6
 
 
