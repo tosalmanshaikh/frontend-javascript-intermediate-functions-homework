@@ -19,7 +19,7 @@ const grades = [9, 8, 5, 7, 7, 4, 9, 8, 8, 3, 6, 8, 5, 6];
 // Log het antwoord in de terminal.
 
 
-function cumLaude(result) {
+function cumLaude(grades) {
 
     let count = 0;
 
@@ -87,19 +87,19 @@ console.log(outcome1, outcome2, outcome3);
 
 
 
-function findAverage(array){
+function findAverage(grades){
 
     let average = 0;
 
-    for (let i = 0; i < array.length; i++) {
+    for (let i = 0; i < grades.length; i++) {
 
         // average = array [i] + average;
 
-        let number = array[i]
+        let number = grades[i]
         average = average + number //* average += number;
     }
 
-    average = average / array.length
+    average = average / grades.length
     return average;
 }
 
@@ -123,17 +123,17 @@ console.log(outcome4);
 // averageGrade([6, 4, 5]) geeft xxxx
 // averageGrade([8, 9, 4, 6, 10]) geeft xxxx
 
-function averageGrade(array){
+function averageGrade(grades){
 
     let average = 0;
 
-    for (let i = 0; i < array.length; i++) {
+    for (let i = 0; i < grades.length; i++) {
 
-        let currentNum = array[i]
+        let currentNum = grades[i]
         average = average + currentNum //* average += currentNum;
     }
 
-    average = average / array.length
+    average = average / grades.length
     return average;
 
 }
@@ -155,17 +155,17 @@ console.log(outcome5, outcome6, outcome7);
 // Zorg ervoor dat het gemiddelde cijfer dat wordt teruggegeven uit de functie netjes wordt afgerond op twee decimalen.
 // Tip: Google is your best friend!
 
-function newAverageGrade(array){
+function newAverageGrade(grades){
 
     let average = 0;
 
-    for (let i = 0; i < array.length; i++) {
+    for (let i = 0; i < grades.length; i++) {
 
-        let currentNum = array[i]
+        let currentNum = grades[i]
         average = average + currentNum //* average += currentNum;
     }
 
-    average = average / array.length
+    average = average / grades.length
     return average.toFixed(2);
 
 }
@@ -190,11 +190,11 @@ console.log(outcome8, outcome9, outcome10);
 // const grades = [9, 8, 5, 7, 7, 4, 9, 8, 8, 3, 6, 8, 5, 6];
 
 
-function hoogsteCijfer(array) {
+function hoogsteCijfer(grades) {
 
 
     let count = 0;
-    for (let i = 0; i < array.length; i++)
+    for (let i = 0; i < grades.length; i++)
 
         if (grades[i] > count) {
             count = grades [i]
@@ -225,11 +225,11 @@ console.log(result);
 
 
 
-function hoogsteCijfer(array) {
+function hoogsteCijfer(grades) {
 
 
     let count = 0;
-    for (let i = 0; i < array.length; i++)
+    for (let i = 0; i < grades.length; i++)
 
         if (grades[i] > count) {
             count = grades [i]
