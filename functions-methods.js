@@ -123,7 +123,6 @@ console.log(final);
 // checkEmailValidity("n.eeken@novinl.") geeft false - want de punt mag niet als laatst
 // checkEmailValidity("tessmellink@novi,nl") geeft false - want er staat een komma in
 
-//sorry for the mess here, do you have a suggestion to write this shorter or smarter? if so, please share! sharing = caring :)
 
 function checkEmailValidity(emailadres){
 
